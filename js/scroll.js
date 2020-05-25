@@ -20,13 +20,6 @@ elmnt.scrollIntoView({
 });
 }
 
-function joinUs(){
-  let elmnt = document.getElementById("joinUs");
-elmnt.scrollIntoView({
-  behavior:"smooth"
-});
-}
-
 function donate(){
   let elmnt = document.getElementById("donate");
   elmnt.scrollIntoView({
@@ -36,6 +29,13 @@ function donate(){
 
 function contact(){
   let elmnt = document.getElementById("contact");
+  elmnt.scrollIntoView({
+    behavior:"smooth"
+  });
+}
+
+function joinUs(){
+  let elmnt = document.getElementById("joinUs");
   elmnt.scrollIntoView({
     behavior:"smooth"
   });
