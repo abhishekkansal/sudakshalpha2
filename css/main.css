@@ -2995,10 +2995,12 @@ address {
   font-weight: bolder;
 }
 
+
 .customnav :hover {
-  background-color: #d94b38;
+  background-color: #f57362;
   text-decoration: none;
-  color: white;
+  font-family: "Poppins", sans-serif;  
+  color: White;
 }
 
 .intern-width{
