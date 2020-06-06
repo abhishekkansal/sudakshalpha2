@@ -2659,10 +2659,7 @@ body {
 
 /* testimonial section - By Shubham Sharma - Do Not Remove*/
 
-.testimonial-area {
-  /* background-color:#f9f9ff; padding-top: 25px; */
-  padding-bottom: 25px;
-}
+
 
 .testimonial-area .header-text {
   text-align: center;
@@ -2997,7 +2994,7 @@ address {
 
 
 .customnav :hover {
-  background-color: #f57362;
+  background-color: #d94b38;
   text-decoration: none;
   font-family: "Poppins", sans-serif;  
   color: White;

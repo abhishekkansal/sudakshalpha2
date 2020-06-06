@@ -100,6 +100,7 @@
   justify-content: center;
   margin: 0 auto;
   padding: 0;
+  padding-bottom: 25px;
 }
 .glider-dot {
   background: none;
@@ -114,7 +115,7 @@
   background: #ccc;
   width: 12px;
   height: 12px;
-  margin: 7px;
+  margin: 7px;  
 }
 .glider-dot:hover,
 .glider-dot:focus,
