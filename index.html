@@ -9,7 +9,7 @@
 
 
         .navbar.navbar-2 .navbar-toggler-icon {
-        background-image: url('https://mdbootstrap.com/img/svg/hamburger2.svg?color=fff');
+        background-image: url('img/ham.png');
         }
 
 
@@ -298,12 +298,17 @@
         }
 
         @media screen and (max-width: 768px) {
-            .logo {
+            .logotwo {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
                 width: 100%;
                 order: -1;
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .logo {
+                display: none;
             }
         }
 
@@ -361,12 +366,11 @@
 
 <body class="host_version">
     
-    <nav class="main-nav" style=" height:75px; background: #d94b38;">
+    <nav class="main-nav" style=" height:70px; background: #d94b38;">
         
 
 
-
-        <div class="logo"><div style="margin-top: 35px"> <img src="img/sudaksh-logo.png">
+        <div class="logo"><div style="margin-top: 32px"> <img src="img/sudaksh-logo.png">
 </div>
 
 
@@ -377,7 +381,7 @@
 
             <div class="topmargin"></div>
             <div class="topmargin"></div>
-            <div class="toggle-nav"><i class="fas fa-bars" style="color:black"></i></div>
+            <div class="toggle-nav"><i class="fa fa-bars" style="color:black"></i></div>
         </div>
         <ul>
             <li class="customnav">
@@ -426,16 +430,16 @@
             </ul>
         </div>
     </nav>
-    </div>
+    </div> 
+    
     <div class="navigation"> <br><br><br>
         <header class="default-header">
-            <div class="container" style="height: 80px">
-                <div class="header-wrap">
+            <div class="container" style="height: 80px">              
                     <div class="header-top d-flex justify-content-between align-items-center">
-                        <div class="logo"> <img src="img/sudaksh-logo.png" style="margin-top: 10px"> </div>
+                        <div class="logotwo"> <img src="img/sudaksh-logo.png" style="margin-top: 10px"> </div>
                         <div class="main-menubar d-flex align-items-center"  style="margin-top: 10px">
                             <nav class="hide"> <a href="#">Home</a> <a onclick="about()">About</a> <a onclick="project()">Impact</a> <a onclick="testimonial()">Interns</a>  <a onclick="joinUs()">Join Us</a> <a onclick="donate()">Donate</a> </nav>
-                            <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+                            <div class="menu-bar"><img src="img/ham.png"></span></div>
                         </div>
                     </div>
                 </div>
