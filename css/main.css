@@ -2278,7 +2278,8 @@ nav a:hover {
 
 .single-project .content {
   position: relative;
-  max-width: 400px;
+  /* max-width: 400px; */
+  max-width: max-content;
   margin: auto;
   overflow: hidden
 }
@@ -2657,9 +2658,7 @@ body {
   overflow: hidden;
 }
 
-/* testimonial section - By Shubham Sharma - Do Not Remove*/
-
-
+/* testimonial section - By Shubham Sharma - Do Not Remove*/  
 
 .testimonial-area .header-text {
   text-align: center;
@@ -2992,12 +2991,11 @@ address {
   font-weight: bolder;
 }
 
-
 .customnav :hover {
   background-color: #d94b38;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;  
-  color: White;
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
 
 .intern-width{
